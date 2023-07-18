@@ -1,0 +1,12 @@
+[
+{
+  "directory": "/home/ubuntu1/CMAKE_CPP/UdemyCppPro-master/MyImplementation/CMake/03_IntermediateProject/build/source/my_lib",
+  "command": "/usr/bin/c++  -I/home/ubuntu1/CMAKE_CPP/UdemyCppPro-master/MyImplementation/CMake/03_IntermediateProject/source/my_lib/. -g -o CMakeFiles/Library.dir/my_lib.cc.o -c /home/ubuntu1/CMAKE_CPP/UdemyCppPro-master/MyImplementation/CMake/03_IntermediateProject/source/my_lib/my_lib.cc",
+  "file": "/home/ubuntu1/CMAKE_CPP/UdemyCppPro-master/MyImplementation/CMake/03_IntermediateProject/source/my_lib/my_lib.cc"
+},
+{
+  "directory": "/home/ubuntu1/CMAKE_CPP/UdemyCppPro-master/MyImplementation/CMake/03_IntermediateProject/build/app",
+  "command": "/usr/bin/c++  -I/home/ubuntu1/CMAKE_CPP/UdemyCppPro-master/MyImplementation/CMake/03_IntermediateProject/source/my_lib/. -g -o CMakeFiles/Executable.dir/main.cc.o -c /home/ubuntu1/CMAKE_CPP/UdemyCppPro-master/MyImplementation/CMake/03_IntermediateProject/app/main.cc",
+  "file": "/home/ubuntu1/CMAKE_CPP/UdemyCppPro-master/MyImplementation/CMake/03_IntermediateProject/app/main.cc"
+}
+]
