@@ -1,0 +1,10 @@
+/home/ubuntu1/CMAKE_CPP/UdemyCppPro-master/MyImplementation/CMake/04_VariablesOptions/build/CMakeFiles/edit_cache.dir
+/home/ubuntu1/CMAKE_CPP/UdemyCppPro-master/MyImplementation/CMake/04_VariablesOptions/build/CMakeFiles/rebuild_cache.dir
+/home/ubuntu1/CMAKE_CPP/UdemyCppPro-master/MyImplementation/CMake/04_VariablesOptions/build/src/CMakeFiles/edit_cache.dir
+/home/ubuntu1/CMAKE_CPP/UdemyCppPro-master/MyImplementation/CMake/04_VariablesOptions/build/src/CMakeFiles/rebuild_cache.dir
+/home/ubuntu1/CMAKE_CPP/UdemyCppPro-master/MyImplementation/CMake/04_VariablesOptions/build/src/my_lib/CMakeFiles/Library.dir
+/home/ubuntu1/CMAKE_CPP/UdemyCppPro-master/MyImplementation/CMake/04_VariablesOptions/build/src/my_lib/CMakeFiles/edit_cache.dir
+/home/ubuntu1/CMAKE_CPP/UdemyCppPro-master/MyImplementation/CMake/04_VariablesOptions/build/src/my_lib/CMakeFiles/rebuild_cache.dir
+/home/ubuntu1/CMAKE_CPP/UdemyCppPro-master/MyImplementation/CMake/04_VariablesOptions/build/app/CMakeFiles/Executable.dir
+/home/ubuntu1/CMAKE_CPP/UdemyCppPro-master/MyImplementation/CMake/04_VariablesOptions/build/app/CMakeFiles/edit_cache.dir
+/home/ubuntu1/CMAKE_CPP/UdemyCppPro-master/MyImplementation/CMake/04_VariablesOptions/build/app/CMakeFiles/rebuild_cache.dir
