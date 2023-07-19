@@ -1,0 +1,3 @@
+/home/ubuntu1/UdemyCppPro-master/01_HelloWorld/build/CMakeFiles/HelloWorldExecutable.dir
+/home/ubuntu1/UdemyCppPro-master/01_HelloWorld/build/CMakeFiles/edit_cache.dir
+/home/ubuntu1/UdemyCppPro-master/01_HelloWorld/build/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,4 @@
+/home/ubuntu1/UdemyCppPro-master/02_BasicProject/build/CMakeFiles/Library.dir
+/home/ubuntu1/UdemyCppPro-master/02_BasicProject/build/CMakeFiles/Executable.dir
+/home/ubuntu1/UdemyCppPro-master/02_BasicProject/build/CMakeFiles/edit_cache.dir
+/home/ubuntu1/UdemyCppPro-master/02_BasicProject/build/CMakeFiles/rebuild_cache.dir
