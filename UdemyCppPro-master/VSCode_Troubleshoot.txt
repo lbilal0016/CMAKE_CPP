@@ -1,0 +1,45 @@
+Problem 1. VS Code is viewing .md files in editing mode and not reviewing mode. How to change its mode?
+Solution 1.
+	a. Keyboard shortcut: Ctrl + Shift + V
+	
+
+Problem 2. fatal: unable to access ".....": gnutls_handshake() failed: Handshake failed
+Solution 2: (https://stackoverflow.com/questions/60262230/fatal-unable-to-access-gnutls-handshake-failed-handshake-failed)
+	
+
+	This is solution fix this issue on ubuntu server 14.04.x
+
+	1, Edit file:
+
+	sudo nano  /etc/apt/sources.list
+
+	2, Add to file sources.list
+
+	deb http://security.ubuntu.com/ubuntu xenial-security main
+	deb http://cz.archive.ubuntu.com/ubuntu xenial main universe
+
+	3, Run command update and update CURL to new version
+
+	apt-get update && apt-get install curl
+
+	4, Check version (Optional):
+
+	curl -V
+	Response :
+
+	curl 7.47.0 (x86_64-pc-linux-gnu) libcurl/7.47.0 GnuTLS/3.4.10 zlib/1.2.8 libidn/1.28 librtmp/2.3
+	Protocols: dict file ftp ftps gopher http https imap imaps ldap ldaps pop3 pop3s rtmp rtsp smb smbs smtp smtps telnet tftp 
+	Features: AsynchDNS IDN IPv6 Largefile GSS-API Kerberos SPNEGO NTLM NTLM_WB SSL libz TLS-SRP UnixSockets 
+
+	5, Test connect with bitbucket (Optional)
+
+	GIT_CURL_VERBOSE=1 git ls-remote https://bitbucket.org/
+	Response:
+
+
+	* Closing connection 0
+	fatal: repository 'https://bitbucket.org/' not found
+
+	This done.
+
+
