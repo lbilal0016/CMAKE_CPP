@@ -1,8 +1,0 @@
-digraph "Library" {
-node [
-  fontsize = "12"
-];
-    "node1" [ label = "Library", shape = octagon ];
-    "node2" [ label = "nlohmann_json\n(nlohmann_json::nlohmann_json)", shape = pentagon ];
-    "node1" -> "node2"  // Library -> nlohmann_json
-}

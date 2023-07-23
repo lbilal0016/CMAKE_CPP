@@ -1,1 +1,1 @@
-/usr/bin/c++ -g CMakeFiles/Executable.dir/main.cc.o -o Executable  ../src/my_lib/libLibrary.a 
+/usr/bin/c++ CMakeFiles/Executable.dir/main.cc.o -o Executable  ../src/my_lib/libLibrary.a 
