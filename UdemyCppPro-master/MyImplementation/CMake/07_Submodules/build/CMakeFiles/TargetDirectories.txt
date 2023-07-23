@@ -1,0 +1,16 @@
+/home/ubuntu1/CMAKE_CPP/UdemyCppPro-master/MyImplementation/CMake/07_Submodules/build/CMakeFiles/edit_cache.dir
+/home/ubuntu1/CMAKE_CPP/UdemyCppPro-master/MyImplementation/CMake/07_Submodules/build/CMakeFiles/rebuild_cache.dir
+/home/ubuntu1/CMAKE_CPP/UdemyCppPro-master/MyImplementation/CMake/07_Submodules/build/external/json/CMakeFiles/edit_cache.dir
+/home/ubuntu1/CMAKE_CPP/UdemyCppPro-master/MyImplementation/CMake/07_Submodules/build/external/json/CMakeFiles/rebuild_cache.dir
+/home/ubuntu1/CMAKE_CPP/UdemyCppPro-master/MyImplementation/CMake/07_Submodules/build/configured/CMakeFiles/edit_cache.dir
+/home/ubuntu1/CMAKE_CPP/UdemyCppPro-master/MyImplementation/CMake/07_Submodules/build/configured/CMakeFiles/rebuild_cache.dir
+/home/ubuntu1/CMAKE_CPP/UdemyCppPro-master/MyImplementation/CMake/07_Submodules/build/external/CMakeFiles/edit_cache.dir
+/home/ubuntu1/CMAKE_CPP/UdemyCppPro-master/MyImplementation/CMake/07_Submodules/build/external/CMakeFiles/rebuild_cache.dir
+/home/ubuntu1/CMAKE_CPP/UdemyCppPro-master/MyImplementation/CMake/07_Submodules/build/src/CMakeFiles/edit_cache.dir
+/home/ubuntu1/CMAKE_CPP/UdemyCppPro-master/MyImplementation/CMake/07_Submodules/build/src/CMakeFiles/rebuild_cache.dir
+/home/ubuntu1/CMAKE_CPP/UdemyCppPro-master/MyImplementation/CMake/07_Submodules/build/src/my_lib/CMakeFiles/Library.dir
+/home/ubuntu1/CMAKE_CPP/UdemyCppPro-master/MyImplementation/CMake/07_Submodules/build/src/my_lib/CMakeFiles/edit_cache.dir
+/home/ubuntu1/CMAKE_CPP/UdemyCppPro-master/MyImplementation/CMake/07_Submodules/build/src/my_lib/CMakeFiles/rebuild_cache.dir
+/home/ubuntu1/CMAKE_CPP/UdemyCppPro-master/MyImplementation/CMake/07_Submodules/build/app/CMakeFiles/Executable.dir
+/home/ubuntu1/CMAKE_CPP/UdemyCppPro-master/MyImplementation/CMake/07_Submodules/build/app/CMakeFiles/edit_cache.dir
+/home/ubuntu1/CMAKE_CPP/UdemyCppPro-master/MyImplementation/CMake/07_Submodules/build/app/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,12 @@
+digraph "nlohmann_json" {
+node [
+  fontsize = "12"
+];
+    "node2" [ label = "nlohmann_json\n(nlohmann_json::nlohmann_json)", shape = pentagon ];
+    "node1" [ label = "Library", shape = octagon ];
+    "node1" -> "node2"  // Library -> nlohmann_json
+    "node0" [ label = "Executable", shape = egg ];
+    "node0" -> "node1" [ style = dotted ] // Executable -> Library
+    "node0" [ label = "Executable", shape = egg ];
+    "node0" -> "node2" [ style = dotted ] // Executable -> nlohmann_json
+}
