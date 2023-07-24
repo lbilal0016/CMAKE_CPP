@@ -1,0 +1,12 @@
+digraph "spdlog" {
+node [
+  fontsize = "12"
+];
+    "node6" [ label = "spdlog\n(spdlog::spdlog)", shape = octagon ];
+    "node2" [ label = "Library", shape = octagon ];
+    "node2" -> "node6"  // Library -> spdlog
+    "node1" [ label = "Executable", shape = egg ];
+    "node1" -> "node2" [ style = dotted ] // Executable -> Library
+    "node1" [ label = "Executable", shape = egg ];
+    "node1" -> "node6" [ style = dotted ] // Executable -> spdlog
+}
