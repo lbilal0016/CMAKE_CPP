@@ -27,6 +27,7 @@ set(LIBRARY_NAME Library)
 
 set(CMAKE_MODULE_PATH "${PROJECT_SOURCE_DIR}/cmake/")
 include(AddGitSubmodule)
+include(Docs)
 
 #   Without FetchContent
 #   add_git_submodule(external/json)
