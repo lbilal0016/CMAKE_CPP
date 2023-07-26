@@ -1,0 +1,3 @@
+/home/ubuntu1/CMAKE_CPP/UdemyCppPro-master/MyImplementation/CMake/10_UnitTests/build/_deps/catch2-subbuild/CMakeFiles/catch2-populate.dir
+/home/ubuntu1/CMAKE_CPP/UdemyCppPro-master/MyImplementation/CMake/10_UnitTests/build/_deps/catch2-subbuild/CMakeFiles/edit_cache.dir
+/home/ubuntu1/CMAKE_CPP/UdemyCppPro-master/MyImplementation/CMake/10_UnitTests/build/_deps/catch2-subbuild/CMakeFiles/rebuild_cache.dir

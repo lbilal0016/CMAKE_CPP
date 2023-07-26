@@ -1,0 +1,282 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "tests/unit_tests"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_executable",
+			"add_link_options",
+			"add_sanitizer_flags",
+			"target_link_libraries",
+			"add_compile_options",
+			"target_include_directories"
+		],
+		"files" : 
+		[
+			"tests/CMakeLists.txt",
+			"cmake/Sanitizer.cmake",
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 11,
+				"parent" : 0
+			},
+			{
+				"file" : 2
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 47,
+				"parent" : 2
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 8,
+				"parent" : 3
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 12,
+				"parent" : 3
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 17,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 21,
+				"parent" : 0
+			},
+			{
+				"command" : 4,
+				"file" : 1,
+				"line" : 7,
+				"parent" : 3
+			},
+			{
+				"command" : 4,
+				"file" : 1,
+				"line" : 11,
+				"parent" : 3
+			},
+			{
+				"command" : 4,
+				"file" : 1,
+				"line" : 16,
+				"parent" : 3
+			},
+			{
+				"command" : 5,
+				"file" : 0,
+				"line" : 13,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-g"
+				},
+				{
+					"backtrace" : 8,
+					"fragment" : "-fno-omit-frame-pointer"
+				},
+				{
+					"backtrace" : 9,
+					"fragment" : "-fsanitize=address"
+				},
+				{
+					"backtrace" : 10,
+					"fragment" : "-fsanitize=undefined"
+				},
+				{
+					"fragment" : "-std=c++20"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 7,
+					"define" : "SPDLOG_COMPILED_LIB"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 11,
+					"path" : "/home/ubuntu1/CMAKE_CPP/UdemyCppPro-master/MyImplementation/CMake/10_UnitTests/tests/."
+				},
+				{
+					"backtrace" : 7,
+					"path" : "/home/ubuntu1/CMAKE_CPP/UdemyCppPro-master/MyImplementation/CMake/10_UnitTests/src/my_lib/."
+				},
+				{
+					"backtrace" : 7,
+					"path" : "/home/ubuntu1/CMAKE_CPP/UdemyCppPro-master/MyImplementation/CMake/10_UnitTests/build/configured_files/include"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "/home/ubuntu1/CMAKE_CPP/UdemyCppPro-master/MyImplementation/CMake/10_UnitTests/build/_deps/nlohmann_json-src/include"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "/home/ubuntu1/CMAKE_CPP/UdemyCppPro-master/MyImplementation/CMake/10_UnitTests/build/_deps/fmt-src/include"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "/home/ubuntu1/CMAKE_CPP/UdemyCppPro-master/MyImplementation/CMake/10_UnitTests/build/_deps/spdlog-src/include"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "/home/ubuntu1/CMAKE_CPP/UdemyCppPro-master/MyImplementation/CMake/10_UnitTests/build/_deps/cxxopts-src/include"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "/home/ubuntu1/CMAKE_CPP/UdemyCppPro-master/MyImplementation/CMake/10_UnitTests/build/_deps/catch2-src/single_include"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					7,
+					7,
+					7,
+					7,
+					7,
+					7,
+					7,
+					7,
+					7,
+					7,
+					7,
+					7,
+					7,
+					7,
+					7,
+					7,
+					7,
+					7,
+					7,
+					7
+				],
+				"standard" : "20"
+			},
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 7,
+			"id" : "fmt::@976f4f0bee90b99ecdb6"
+		},
+		{
+			"backtrace" : 7,
+			"id" : "spdlog::@eb35cfce7893ccfeff1e"
+		},
+		{
+			"backtrace" : 7,
+			"id" : "Library::@c75f2be49bb1c1e936f4"
+		}
+	],
+	"id" : "unit_tests::@a44f0ac069e85531cdee",
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "-g",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "-fno-omit-frame-pointer",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "-fsanitize=address",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "-fsanitize=undefined",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 7,
+				"fragment" : "../src/my_lib/libLibrary.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "../_deps/fmt-build/libfmtd.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "../_deps/spdlog-build/libspdlogd.a",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "unit_tests",
+	"nameOnDisk" : "unit_tests",
+	"paths" : 
+	{
+		"build" : "tests",
+		"source" : "tests"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "tests/main.cc",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "EXECUTABLE"
+}

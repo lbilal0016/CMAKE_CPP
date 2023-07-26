@@ -1,0 +1,4 @@
+/home/ubuntu1/CMAKE_CPP/UdemyCppPro-master/MyImplementation/CMake/10_UnitTests/build/app/CMakeFiles/_CMakeLTOTest-C/bin/CMakeFiles/foo.dir
+/home/ubuntu1/CMAKE_CPP/UdemyCppPro-master/MyImplementation/CMake/10_UnitTests/build/app/CMakeFiles/_CMakeLTOTest-C/bin/CMakeFiles/boo.dir
+/home/ubuntu1/CMAKE_CPP/UdemyCppPro-master/MyImplementation/CMake/10_UnitTests/build/app/CMakeFiles/_CMakeLTOTest-C/bin/CMakeFiles/edit_cache.dir
+/home/ubuntu1/CMAKE_CPP/UdemyCppPro-master/MyImplementation/CMake/10_UnitTests/build/app/CMakeFiles/_CMakeLTOTest-C/bin/CMakeFiles/rebuild_cache.dir

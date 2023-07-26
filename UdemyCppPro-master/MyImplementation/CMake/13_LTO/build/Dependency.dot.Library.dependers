@@ -1,0 +1,10 @@
+digraph "Library" {
+node [
+  fontsize = "12"
+];
+    "node2" [ label = "Library", shape = octagon ];
+    "node1" [ label = "Executable", shape = egg ];
+    "node1" -> "node2" [ style = dotted ] // Executable -> Library
+    "node10" [ label = "unit_tests", shape = egg ];
+    "node10" -> "node2" [ style = dotted ] // unit_tests -> Library
+}

@@ -1,0 +1,14 @@
+digraph "cxxopts" {
+node [
+  fontsize = "12"
+];
+    "node3" [ label = "cxxopts\n(cxxopts::cxxopts)", shape = pentagon ];
+    "node2" [ label = "Library", shape = octagon ];
+    "node2" -> "node3"  // Library -> cxxopts
+    "node1" [ label = "Executable", shape = egg ];
+    "node1" -> "node2" [ style = dotted ] // Executable -> Library
+    "node10" [ label = "unit_tests", shape = egg ];
+    "node10" -> "node2" [ style = dotted ] // unit_tests -> Library
+    "node1" [ label = "Executable", shape = egg ];
+    "node1" -> "node3" [ style = dotted ] // Executable -> cxxopts
+}

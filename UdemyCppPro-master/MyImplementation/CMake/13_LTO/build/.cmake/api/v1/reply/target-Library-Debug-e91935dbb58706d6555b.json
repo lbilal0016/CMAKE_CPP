@@ -1,0 +1,255 @@
+{
+	"archive" : 
+	{
+		"lto" : true
+	},
+	"artifacts" : 
+	[
+		{
+			"path" : "src/my_lib/libLibrary.a"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"target_link_libraries",
+			"add_compile_options",
+			"add_sanitizer_flags",
+			"target_compile_options",
+			"target_set_warnings",
+			"target_include_directories"
+		],
+		"files" : 
+		[
+			"src/my_lib/CMakeLists.txt",
+			"cmake/Sanitizer.cmake",
+			"CMakeLists.txt",
+			"cmake/Warnings.cmake"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 21,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 27,
+				"parent" : 0
+			},
+			{
+				"file" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 2,
+				"line" : 47,
+				"parent" : 3
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 7,
+				"parent" : 4
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 11,
+				"parent" : 4
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 16,
+				"parent" : 4
+			},
+			{
+				"command" : 5,
+				"file" : 0,
+				"line" : 36,
+				"parent" : 0
+			},
+			{
+				"command" : 4,
+				"file" : 3,
+				"line" : 35,
+				"parent" : 8
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 24,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-g -flto -fno-fat-lto-objects"
+				},
+				{
+					"backtrace" : 5,
+					"fragment" : "-fno-omit-frame-pointer"
+				},
+				{
+					"backtrace" : 6,
+					"fragment" : "-fsanitize=address"
+				},
+				{
+					"backtrace" : 7,
+					"fragment" : "-fsanitize=undefined"
+				},
+				{
+					"backtrace" : 9,
+					"fragment" : "-Wall"
+				},
+				{
+					"backtrace" : 9,
+					"fragment" : "-Wextra"
+				},
+				{
+					"backtrace" : 9,
+					"fragment" : "-Wpedantic"
+				},
+				{
+					"fragment" : "-std=c++20"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 2,
+					"define" : "SPDLOG_COMPILED_LIB"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 10,
+					"path" : "/home/ubuntu1/CMAKE_CPP/UdemyCppPro-master/MyImplementation/CMake/10_UnitTests/src/my_lib/."
+				},
+				{
+					"backtrace" : 10,
+					"path" : "/home/ubuntu1/CMAKE_CPP/UdemyCppPro-master/MyImplementation/CMake/10_UnitTests/build/configured_files/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/ubuntu1/CMAKE_CPP/UdemyCppPro-master/MyImplementation/CMake/10_UnitTests/build/_deps/nlohmann_json-src/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/ubuntu1/CMAKE_CPP/UdemyCppPro-master/MyImplementation/CMake/10_UnitTests/build/_deps/fmt-src/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/ubuntu1/CMAKE_CPP/UdemyCppPro-master/MyImplementation/CMake/10_UnitTests/build/_deps/spdlog-src/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/ubuntu1/CMAKE_CPP/UdemyCppPro-master/MyImplementation/CMake/10_UnitTests/build/_deps/cxxopts-src/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/ubuntu1/CMAKE_CPP/UdemyCppPro-master/MyImplementation/CMake/10_UnitTests/build/_deps/catch2-src/single_include"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					2,
+					2,
+					2,
+					2,
+					2,
+					2,
+					2,
+					2,
+					2,
+					2,
+					2,
+					2,
+					2,
+					2,
+					2,
+					2,
+					2,
+					2,
+					2,
+					2
+				],
+				"standard" : "20"
+			},
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 2,
+			"id" : "fmt::@976f4f0bee90b99ecdb6"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "spdlog::@eb35cfce7893ccfeff1e"
+		}
+	],
+	"id" : "Library::@c75f2be49bb1c1e936f4",
+	"name" : "Library",
+	"nameOnDisk" : "libLibrary.a",
+	"paths" : 
+	{
+		"build" : "src/my_lib",
+		"source" : "src/my_lib"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "Header Files",
+			"sourceIndexes" : 
+			[
+				1
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/my_lib/my_lib.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/my_lib/my_lib.h",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "STATIC_LIBRARY"
+}

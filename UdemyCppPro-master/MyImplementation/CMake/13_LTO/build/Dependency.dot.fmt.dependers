@@ -1,0 +1,14 @@
+digraph "fmt" {
+node [
+  fontsize = "12"
+];
+    "node4" [ label = "fmt\n(fmt::fmt)", shape = octagon ];
+    "node2" [ label = "Library", shape = octagon ];
+    "node2" -> "node4"  // Library -> fmt
+    "node1" [ label = "Executable", shape = egg ];
+    "node1" -> "node2" [ style = dotted ] // Executable -> Library
+    "node10" [ label = "unit_tests", shape = egg ];
+    "node10" -> "node2" [ style = dotted ] // unit_tests -> Library
+    "node1" [ label = "Executable", shape = egg ];
+    "node1" -> "node4" [ style = dotted ] // Executable -> fmt
+}

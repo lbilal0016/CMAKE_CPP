@@ -1,0 +1,62 @@
+[
+{
+  "directory": "/home/ubuntu1/CMAKE_CPP/UdemyCppPro-master/MyImplementation/CMake/10_UnitTests/build/_deps/fmt-build",
+  "command": "/usr/bin/g++  -I/home/ubuntu1/CMAKE_CPP/UdemyCppPro-master/MyImplementation/CMake/10_UnitTests/build/_deps/fmt-src/include -g -fno-omit-frame-pointer -fsanitize=address -fsanitize=undefined -std=c++20 -o CMakeFiles/fmt.dir/src/format.cc.o -c /home/ubuntu1/CMAKE_CPP/UdemyCppPro-master/MyImplementation/CMake/10_UnitTests/build/_deps/fmt-src/src/format.cc",
+  "file": "/home/ubuntu1/CMAKE_CPP/UdemyCppPro-master/MyImplementation/CMake/10_UnitTests/build/_deps/fmt-src/src/format.cc"
+},
+{
+  "directory": "/home/ubuntu1/CMAKE_CPP/UdemyCppPro-master/MyImplementation/CMake/10_UnitTests/build/_deps/fmt-build",
+  "command": "/usr/bin/g++  -I/home/ubuntu1/CMAKE_CPP/UdemyCppPro-master/MyImplementation/CMake/10_UnitTests/build/_deps/fmt-src/include -g -fno-omit-frame-pointer -fsanitize=address -fsanitize=undefined -std=c++20 -o CMakeFiles/fmt.dir/src/os.cc.o -c /home/ubuntu1/CMAKE_CPP/UdemyCppPro-master/MyImplementation/CMake/10_UnitTests/build/_deps/fmt-src/src/os.cc",
+  "file": "/home/ubuntu1/CMAKE_CPP/UdemyCppPro-master/MyImplementation/CMake/10_UnitTests/build/_deps/fmt-src/src/os.cc"
+},
+{
+  "directory": "/home/ubuntu1/CMAKE_CPP/UdemyCppPro-master/MyImplementation/CMake/10_UnitTests/build/_deps/spdlog-build",
+  "command": "/usr/bin/g++ -DSPDLOG_COMPILED_LIB -I/home/ubuntu1/CMAKE_CPP/UdemyCppPro-master/MyImplementation/CMake/10_UnitTests/build/_deps/spdlog-src/include -g -fno-omit-frame-pointer -fsanitize=address -fsanitize=undefined -std=c++20 -o CMakeFiles/spdlog.dir/src/spdlog.cpp.o -c /home/ubuntu1/CMAKE_CPP/UdemyCppPro-master/MyImplementation/CMake/10_UnitTests/build/_deps/spdlog-src/src/spdlog.cpp",
+  "file": "/home/ubuntu1/CMAKE_CPP/UdemyCppPro-master/MyImplementation/CMake/10_UnitTests/build/_deps/spdlog-src/src/spdlog.cpp"
+},
+{
+  "directory": "/home/ubuntu1/CMAKE_CPP/UdemyCppPro-master/MyImplementation/CMake/10_UnitTests/build/_deps/spdlog-build",
+  "command": "/usr/bin/g++ -DSPDLOG_COMPILED_LIB -I/home/ubuntu1/CMAKE_CPP/UdemyCppPro-master/MyImplementation/CMake/10_UnitTests/build/_deps/spdlog-src/include -g -fno-omit-frame-pointer -fsanitize=address -fsanitize=undefined -std=c++20 -o CMakeFiles/spdlog.dir/src/stdout_sinks.cpp.o -c /home/ubuntu1/CMAKE_CPP/UdemyCppPro-master/MyImplementation/CMake/10_UnitTests/build/_deps/spdlog-src/src/stdout_sinks.cpp",
+  "file": "/home/ubuntu1/CMAKE_CPP/UdemyCppPro-master/MyImplementation/CMake/10_UnitTests/build/_deps/spdlog-src/src/stdout_sinks.cpp"
+},
+{
+  "directory": "/home/ubuntu1/CMAKE_CPP/UdemyCppPro-master/MyImplementation/CMake/10_UnitTests/build/_deps/spdlog-build",
+  "command": "/usr/bin/g++ -DSPDLOG_COMPILED_LIB -I/home/ubuntu1/CMAKE_CPP/UdemyCppPro-master/MyImplementation/CMake/10_UnitTests/build/_deps/spdlog-src/include -g -fno-omit-frame-pointer -fsanitize=address -fsanitize=undefined -std=c++20 -o CMakeFiles/spdlog.dir/src/color_sinks.cpp.o -c /home/ubuntu1/CMAKE_CPP/UdemyCppPro-master/MyImplementation/CMake/10_UnitTests/build/_deps/spdlog-src/src/color_sinks.cpp",
+  "file": "/home/ubuntu1/CMAKE_CPP/UdemyCppPro-master/MyImplementation/CMake/10_UnitTests/build/_deps/spdlog-src/src/color_sinks.cpp"
+},
+{
+  "directory": "/home/ubuntu1/CMAKE_CPP/UdemyCppPro-master/MyImplementation/CMake/10_UnitTests/build/_deps/spdlog-build",
+  "command": "/usr/bin/g++ -DSPDLOG_COMPILED_LIB -I/home/ubuntu1/CMAKE_CPP/UdemyCppPro-master/MyImplementation/CMake/10_UnitTests/build/_deps/spdlog-src/include -g -fno-omit-frame-pointer -fsanitize=address -fsanitize=undefined -std=c++20 -o CMakeFiles/spdlog.dir/src/file_sinks.cpp.o -c /home/ubuntu1/CMAKE_CPP/UdemyCppPro-master/MyImplementation/CMake/10_UnitTests/build/_deps/spdlog-src/src/file_sinks.cpp",
+  "file": "/home/ubuntu1/CMAKE_CPP/UdemyCppPro-master/MyImplementation/CMake/10_UnitTests/build/_deps/spdlog-src/src/file_sinks.cpp"
+},
+{
+  "directory": "/home/ubuntu1/CMAKE_CPP/UdemyCppPro-master/MyImplementation/CMake/10_UnitTests/build/_deps/spdlog-build",
+  "command": "/usr/bin/g++ -DSPDLOG_COMPILED_LIB -I/home/ubuntu1/CMAKE_CPP/UdemyCppPro-master/MyImplementation/CMake/10_UnitTests/build/_deps/spdlog-src/include -g -fno-omit-frame-pointer -fsanitize=address -fsanitize=undefined -std=c++20 -o CMakeFiles/spdlog.dir/src/async.cpp.o -c /home/ubuntu1/CMAKE_CPP/UdemyCppPro-master/MyImplementation/CMake/10_UnitTests/build/_deps/spdlog-src/src/async.cpp",
+  "file": "/home/ubuntu1/CMAKE_CPP/UdemyCppPro-master/MyImplementation/CMake/10_UnitTests/build/_deps/spdlog-src/src/async.cpp"
+},
+{
+  "directory": "/home/ubuntu1/CMAKE_CPP/UdemyCppPro-master/MyImplementation/CMake/10_UnitTests/build/_deps/spdlog-build",
+  "command": "/usr/bin/g++ -DSPDLOG_COMPILED_LIB -I/home/ubuntu1/CMAKE_CPP/UdemyCppPro-master/MyImplementation/CMake/10_UnitTests/build/_deps/spdlog-src/include -g -fno-omit-frame-pointer -fsanitize=address -fsanitize=undefined -std=c++20 -o CMakeFiles/spdlog.dir/src/cfg.cpp.o -c /home/ubuntu1/CMAKE_CPP/UdemyCppPro-master/MyImplementation/CMake/10_UnitTests/build/_deps/spdlog-src/src/cfg.cpp",
+  "file": "/home/ubuntu1/CMAKE_CPP/UdemyCppPro-master/MyImplementation/CMake/10_UnitTests/build/_deps/spdlog-src/src/cfg.cpp"
+},
+{
+  "directory": "/home/ubuntu1/CMAKE_CPP/UdemyCppPro-master/MyImplementation/CMake/10_UnitTests/build/_deps/spdlog-build",
+  "command": "/usr/bin/g++ -DSPDLOG_COMPILED_LIB -I/home/ubuntu1/CMAKE_CPP/UdemyCppPro-master/MyImplementation/CMake/10_UnitTests/build/_deps/spdlog-src/include -g -fno-omit-frame-pointer -fsanitize=address -fsanitize=undefined -std=c++20 -o CMakeFiles/spdlog.dir/src/bundled_fmtlib_format.cpp.o -c /home/ubuntu1/CMAKE_CPP/UdemyCppPro-master/MyImplementation/CMake/10_UnitTests/build/_deps/spdlog-src/src/bundled_fmtlib_format.cpp",
+  "file": "/home/ubuntu1/CMAKE_CPP/UdemyCppPro-master/MyImplementation/CMake/10_UnitTests/build/_deps/spdlog-src/src/bundled_fmtlib_format.cpp"
+},
+{
+  "directory": "/home/ubuntu1/CMAKE_CPP/UdemyCppPro-master/MyImplementation/CMake/10_UnitTests/build/src/my_lib",
+  "command": "/usr/bin/g++ -DSPDLOG_COMPILED_LIB -I/home/ubuntu1/CMAKE_CPP/UdemyCppPro-master/MyImplementation/CMake/10_UnitTests/src/my_lib/. -I/home/ubuntu1/CMAKE_CPP/UdemyCppPro-master/MyImplementation/CMake/10_UnitTests/build/configured_files/include -I/home/ubuntu1/CMAKE_CPP/UdemyCppPro-master/MyImplementation/CMake/10_UnitTests/build/_deps/nlohmann_json-src/include -I/home/ubuntu1/CMAKE_CPP/UdemyCppPro-master/MyImplementation/CMake/10_UnitTests/build/_deps/fmt-src/include -I/home/ubuntu1/CMAKE_CPP/UdemyCppPro-master/MyImplementation/CMake/10_UnitTests/build/_deps/spdlog-src/include -I/home/ubuntu1/CMAKE_CPP/UdemyCppPro-master/MyImplementation/CMake/10_UnitTests/build/_deps/cxxopts-src/include -I/home/ubuntu1/CMAKE_CPP/UdemyCppPro-master/MyImplementation/CMake/10_UnitTests/build/_deps/catch2-src/single_include -g -flto -fno-fat-lto-objects -fno-omit-frame-pointer -fsanitize=address -fsanitize=undefined -Wall -Wextra -Wpedantic -std=c++20 -o CMakeFiles/Library.dir/my_lib.cc.o -c /home/ubuntu1/CMAKE_CPP/UdemyCppPro-master/MyImplementation/CMake/10_UnitTests/src/my_lib/my_lib.cc",
+  "file": "/home/ubuntu1/CMAKE_CPP/UdemyCppPro-master/MyImplementation/CMake/10_UnitTests/src/my_lib/my_lib.cc"
+},
+{
+  "directory": "/home/ubuntu1/CMAKE_CPP/UdemyCppPro-master/MyImplementation/CMake/10_UnitTests/build/app",
+  "command": "/usr/bin/g++ -DSPDLOG_COMPILED_LIB -I/home/ubuntu1/CMAKE_CPP/UdemyCppPro-master/MyImplementation/CMake/10_UnitTests/app/. -I/home/ubuntu1/CMAKE_CPP/UdemyCppPro-master/MyImplementation/CMake/10_UnitTests/src/my_lib/. -I/home/ubuntu1/CMAKE_CPP/UdemyCppPro-master/MyImplementation/CMake/10_UnitTests/build/configured_files/include -I/home/ubuntu1/CMAKE_CPP/UdemyCppPro-master/MyImplementation/CMake/10_UnitTests/build/_deps/nlohmann_json-src/include -I/home/ubuntu1/CMAKE_CPP/UdemyCppPro-master/MyImplementation/CMake/10_UnitTests/build/_deps/fmt-src/include -I/home/ubuntu1/CMAKE_CPP/UdemyCppPro-master/MyImplementation/CMake/10_UnitTests/build/_deps/spdlog-src/include -I/home/ubuntu1/CMAKE_CPP/UdemyCppPro-master/MyImplementation/CMake/10_UnitTests/build/_deps/cxxopts-src/include -I/home/ubuntu1/CMAKE_CPP/UdemyCppPro-master/MyImplementation/CMake/10_UnitTests/build/_deps/catch2-src/single_include -g -flto -fno-fat-lto-objects -fno-omit-frame-pointer -fsanitize=address -fsanitize=undefined -Wall -Wextra -Wpedantic -std=c++20 -o CMakeFiles/Executable.dir/main.cc.o -c /home/ubuntu1/CMAKE_CPP/UdemyCppPro-master/MyImplementation/CMake/10_UnitTests/app/main.cc",
+  "file": "/home/ubuntu1/CMAKE_CPP/UdemyCppPro-master/MyImplementation/CMake/10_UnitTests/app/main.cc"
+},
+{
+  "directory": "/home/ubuntu1/CMAKE_CPP/UdemyCppPro-master/MyImplementation/CMake/10_UnitTests/build/tests",
+  "command": "/usr/bin/g++ -DSPDLOG_COMPILED_LIB -I/home/ubuntu1/CMAKE_CPP/UdemyCppPro-master/MyImplementation/CMake/10_UnitTests/tests/. -I/home/ubuntu1/CMAKE_CPP/UdemyCppPro-master/MyImplementation/CMake/10_UnitTests/src/my_lib/. -I/home/ubuntu1/CMAKE_CPP/UdemyCppPro-master/MyImplementation/CMake/10_UnitTests/build/configured_files/include -I/home/ubuntu1/CMAKE_CPP/UdemyCppPro-master/MyImplementation/CMake/10_UnitTests/build/_deps/nlohmann_json-src/include -I/home/ubuntu1/CMAKE_CPP/UdemyCppPro-master/MyImplementation/CMake/10_UnitTests/build/_deps/fmt-src/include -I/home/ubuntu1/CMAKE_CPP/UdemyCppPro-master/MyImplementation/CMake/10_UnitTests/build/_deps/spdlog-src/include -I/home/ubuntu1/CMAKE_CPP/UdemyCppPro-master/MyImplementation/CMake/10_UnitTests/build/_deps/cxxopts-src/include -I/home/ubuntu1/CMAKE_CPP/UdemyCppPro-master/MyImplementation/CMake/10_UnitTests/build/_deps/catch2-src/single_include -g -fno-omit-frame-pointer -fsanitize=address -fsanitize=undefined -std=c++20 -o CMakeFiles/unit_tests.dir/main.cc.o -c /home/ubuntu1/CMAKE_CPP/UdemyCppPro-master/MyImplementation/CMake/10_UnitTests/tests/main.cc",
+  "file": "/home/ubuntu1/CMAKE_CPP/UdemyCppPro-master/MyImplementation/CMake/10_UnitTests/tests/main.cc"
+}
+]

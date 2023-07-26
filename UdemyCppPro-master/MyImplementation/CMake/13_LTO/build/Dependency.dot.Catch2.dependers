@@ -1,0 +1,14 @@
+digraph "Catch2" {
+node [
+  fontsize = "12"
+];
+    "node0" [ label = "Catch2\n(Catch2::Catch2)", shape = pentagon ];
+    "node2" [ label = "Library", shape = octagon ];
+    "node2" -> "node0"  // Library -> Catch2
+    "node1" [ label = "Executable", shape = egg ];
+    "node1" -> "node2" [ style = dotted ] // Executable -> Library
+    "node10" [ label = "unit_tests", shape = egg ];
+    "node10" -> "node2" [ style = dotted ] // unit_tests -> Library
+    "node10" [ label = "unit_tests", shape = egg ];
+    "node10" -> "node0" [ style = dotted ] // unit_tests -> Catch2
+}
