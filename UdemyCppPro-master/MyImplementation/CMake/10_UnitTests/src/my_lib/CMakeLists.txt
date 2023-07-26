@@ -32,6 +32,13 @@ target_link_libraries(
           cxxopts::cxxopts
           Catch2::Catch2)
 
+if(ENABLE_WARNINGS)
+    target_set_warnings(
+        ${LIBRARY_NAME}
+        ON
+        OFF
+    )
+endif(ENABLE_WARNINGS)
 
 
 

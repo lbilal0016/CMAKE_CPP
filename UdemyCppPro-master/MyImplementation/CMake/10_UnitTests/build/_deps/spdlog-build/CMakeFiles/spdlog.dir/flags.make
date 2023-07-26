@@ -6,5 +6,5 @@ CXX_DEFINES = -DSPDLOG_COMPILED_LIB
 
 CXX_INCLUDES = -I/home/ubuntu1/CMAKE_CPP/UdemyCppPro-master/MyImplementation/CMake/10_UnitTests/build/_deps/spdlog-src/include
 
-CXX_FLAGS = -g -std=c++20
+CXX_FLAGS = -g -fno-omit-frame-pointer -fsanitize=address -fsanitize=undefined -std=c++20
 

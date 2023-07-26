@@ -27,3 +27,11 @@ target_link_libraries(
 #   printing the CMake content
 message("Exe Name: " ${EXECUTABLE_NAME})
 message("PROJECT_SOURCE_DIR = ${PROJECT_SOURCE_DIR}")
+
+if(ENABLE_WARNINGS)
+    target_set_warnings(
+        ${EXECUTABLE_NAME}
+        ON
+        OFF
+    )
+endif(ENABLE_WARNINGS)

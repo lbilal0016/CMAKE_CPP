@@ -9,6 +9,8 @@
 #include <config.hpp>
 
 
+
+
 int main()
 {
     std::cout <<  "Project Name: " << project_name << std::endl;
@@ -17,6 +19,11 @@ int main()
     std::cout << "." << NLOHMANN_JSON_VERSION_MINOR;
     std::cout << "." << NLOHMANN_JSON_VERSION_PATCH;
     std::cout << std::endl; */
+
+    int i;
+
+    char x[10];
+    x[11] = 1;
 
     print_json_version();
 

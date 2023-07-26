@@ -22,14 +22,30 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 set(CMAKE_CXX_EXTENSIONS OFF)
 
 option(ENABLE_TESTING "Enable a Unit Testing Build" ON)
+option(ENABLE_WARNINGS "Enable compiler warnings for a target" ON)
+option(ENABLE_WARNINGS_AS_ERRORS "Enable compiler warnings as errors" OFF)
+
+option(ENABLE_SANITIZE_ADDR "Enable address sanitizer" ON)
+option(ENABLE_SANITIZE_UNDEF "Enable undefined sanitizer" ON)
 
 #   setting variables
 set(EXECUTABLE_NAME Executable)
 set(LIBRARY_NAME Library)
 
-set(CMAKE_MODULE_PATH "${PROJECT_SOURCE_DIR}/cmake/")
+set(CMAKE_MODULE_PATH "${PROJECT_SOURCE_DIR}/cmake/")   #   CMake knows where to look for includes by checking this variable
 include(AddGitSubmodule)
 include(Docs)
+
+if(ENABLE_WARNINGS)
+    include(Warnings)
+endif(ENABLE_WARNINGS)
+
+if(ENABLE_SANITIZE_ADDR OR ENABLE_SANITIZE_UNDEF)
+    include(Sanitizer)
+    add_sanitizer_flags()
+endif()
+
+
 
 #   Without FetchContent
 #   add_git_submodule(external/json)
@@ -77,9 +93,6 @@ FetchContent_Declare(
     GIT_TAG   v2.13.9    #   Repo version
     GIT_SHALLOW TRUE)
 FetchContent_MakeAvailable(Catch2)
-
-
-
 
 #   Letting main CMakeLists.txt data aware that there are CMakeLists.txt files in subdirectories:
 add_subdirectory(configured)
