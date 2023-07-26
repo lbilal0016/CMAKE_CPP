@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ubuntu1/CMAKE_CPP/UdemyCppPro-master/MyImplementation/CMake/10_UnitTests
+CMAKE_SOURCE_DIR = /home/ubuntu1/CMAKE_CPP/UdemyCppPro-master/MyImplementation/CMake/13_LTO
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ubuntu1/CMAKE_CPP/UdemyCppPro-master/MyImplementation/CMake/10_UnitTests/build
+CMAKE_BINARY_DIR = /home/ubuntu1/CMAKE_CPP/UdemyCppPro-master/MyImplementation/CMake/13_LTO/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -132,14 +132,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/ubuntu1/CMAKE_CPP/UdemyCppPro-master/MyImplementation/CMake/10_UnitTests/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu1/CMAKE_CPP/UdemyCppPro-master/MyImplementation/CMake/10_UnitTests/build/CMakeFiles /home/ubuntu1/CMAKE_CPP/UdemyCppPro-master/MyImplementation/CMake/10_UnitTests/build/external//CMakeFiles/progress.marks
-	cd /home/ubuntu1/CMAKE_CPP/UdemyCppPro-master/MyImplementation/CMake/10_UnitTests/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 external/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu1/CMAKE_CPP/UdemyCppPro-master/MyImplementation/CMake/10_UnitTests/build/CMakeFiles 0
+	cd /home/ubuntu1/CMAKE_CPP/UdemyCppPro-master/MyImplementation/CMake/13_LTO/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu1/CMAKE_CPP/UdemyCppPro-master/MyImplementation/CMake/13_LTO/build/CMakeFiles /home/ubuntu1/CMAKE_CPP/UdemyCppPro-master/MyImplementation/CMake/13_LTO/build/external//CMakeFiles/progress.marks
+	cd /home/ubuntu1/CMAKE_CPP/UdemyCppPro-master/MyImplementation/CMake/13_LTO/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 external/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu1/CMAKE_CPP/UdemyCppPro-master/MyImplementation/CMake/13_LTO/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/ubuntu1/CMAKE_CPP/UdemyCppPro-master/MyImplementation/CMake/10_UnitTests/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 external/clean
+	cd /home/ubuntu1/CMAKE_CPP/UdemyCppPro-master/MyImplementation/CMake/13_LTO/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 external/clean
 .PHONY : clean
 
 # The main clean target
@@ -148,17 +148,17 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/ubuntu1/CMAKE_CPP/UdemyCppPro-master/MyImplementation/CMake/10_UnitTests/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 external/preinstall
+	cd /home/ubuntu1/CMAKE_CPP/UdemyCppPro-master/MyImplementation/CMake/13_LTO/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 external/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/ubuntu1/CMAKE_CPP/UdemyCppPro-master/MyImplementation/CMake/10_UnitTests/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 external/preinstall
+	cd /home/ubuntu1/CMAKE_CPP/UdemyCppPro-master/MyImplementation/CMake/13_LTO/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 external/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/ubuntu1/CMAKE_CPP/UdemyCppPro-master/MyImplementation/CMake/10_UnitTests/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/ubuntu1/CMAKE_CPP/UdemyCppPro-master/MyImplementation/CMake/13_LTO/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Help Target
@@ -184,6 +184,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/ubuntu1/CMAKE_CPP/UdemyCppPro-master/MyImplementation/CMake/10_UnitTests/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/ubuntu1/CMAKE_CPP/UdemyCppPro-master/MyImplementation/CMake/13_LTO/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

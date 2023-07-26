@@ -1,11 +1,11 @@
 _deps/spdlog-build/CMakeFiles/spdlog.dir/src/spdlog.cpp.o: \
- /home/ubuntu1/CMAKE_CPP/UdemyCppPro-master/MyImplementation/CMake/10_UnitTests/build/_deps/spdlog-src/src/spdlog.cpp \
+ /home/ubuntu1/CMAKE_CPP/UdemyCppPro-master/MyImplementation/CMake/13_LTO/build/_deps/spdlog-src/src/spdlog.cpp \
  /usr/include/stdc-predef.h \
- /home/ubuntu1/CMAKE_CPP/UdemyCppPro-master/MyImplementation/CMake/10_UnitTests/build/_deps/spdlog-src/include/spdlog/spdlog-inl.h \
- /home/ubuntu1/CMAKE_CPP/UdemyCppPro-master/MyImplementation/CMake/10_UnitTests/build/_deps/spdlog-src/include/spdlog/spdlog.h \
- /home/ubuntu1/CMAKE_CPP/UdemyCppPro-master/MyImplementation/CMake/10_UnitTests/build/_deps/spdlog-src/include/spdlog/common.h \
- /home/ubuntu1/CMAKE_CPP/UdemyCppPro-master/MyImplementation/CMake/10_UnitTests/build/_deps/spdlog-src/include/spdlog/tweakme.h \
- /home/ubuntu1/CMAKE_CPP/UdemyCppPro-master/MyImplementation/CMake/10_UnitTests/build/_deps/spdlog-src/include/spdlog/details/null_mutex.h \
+ /home/ubuntu1/CMAKE_CPP/UdemyCppPro-master/MyImplementation/CMake/13_LTO/build/_deps/spdlog-src/include/spdlog/spdlog-inl.h \
+ /home/ubuntu1/CMAKE_CPP/UdemyCppPro-master/MyImplementation/CMake/13_LTO/build/_deps/spdlog-src/include/spdlog/spdlog.h \
+ /home/ubuntu1/CMAKE_CPP/UdemyCppPro-master/MyImplementation/CMake/13_LTO/build/_deps/spdlog-src/include/spdlog/common.h \
+ /home/ubuntu1/CMAKE_CPP/UdemyCppPro-master/MyImplementation/CMake/13_LTO/build/_deps/spdlog-src/include/spdlog/tweakme.h \
+ /home/ubuntu1/CMAKE_CPP/UdemyCppPro-master/MyImplementation/CMake/13_LTO/build/_deps/spdlog-src/include/spdlog/details/null_mutex.h \
  /usr/include/c++/11/atomic /usr/include/c++/11/bits/atomic_base.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
@@ -216,11 +216,11 @@ _deps/spdlog-build/CMakeFiles/spdlog.dir/src/spdlog.cpp.o: \
  /usr/include/c++/11/bits/stl_vector.h \
  /usr/include/c++/11/bits/stl_bvector.h \
  /usr/include/c++/11/bits/vector.tcc \
- /home/ubuntu1/CMAKE_CPP/UdemyCppPro-master/MyImplementation/CMake/10_UnitTests/build/_deps/spdlog-src/include/spdlog/fmt/fmt.h \
- /home/ubuntu1/CMAKE_CPP/UdemyCppPro-master/MyImplementation/CMake/10_UnitTests/build/_deps/spdlog-src/include/spdlog/fmt/bundled/core.h \
+ /home/ubuntu1/CMAKE_CPP/UdemyCppPro-master/MyImplementation/CMake/13_LTO/build/_deps/spdlog-src/include/spdlog/fmt/fmt.h \
+ /home/ubuntu1/CMAKE_CPP/UdemyCppPro-master/MyImplementation/CMake/13_LTO/build/_deps/spdlog-src/include/spdlog/fmt/bundled/core.h \
  /usr/include/c++/11/cstddef /usr/include/c++/11/cstring \
  /usr/include/string.h /usr/include/strings.h \
- /home/ubuntu1/CMAKE_CPP/UdemyCppPro-master/MyImplementation/CMake/10_UnitTests/build/_deps/spdlog-src/include/spdlog/fmt/bundled/format.h \
+ /home/ubuntu1/CMAKE_CPP/UdemyCppPro-master/MyImplementation/CMake/13_LTO/build/_deps/spdlog-src/include/spdlog/fmt/bundled/format.h \
  /usr/include/c++/11/cmath /usr/include/math.h \
  /usr/include/x86_64-linux-gnu/bits/math-vector.h \
  /usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h \
@@ -243,9 +243,9 @@ _deps/spdlog-build/CMakeFiles/spdlog.dir/src/spdlog.cpp.o: \
  /usr/include/c++/11/tr1/poly_hermite.tcc \
  /usr/include/c++/11/tr1/poly_laguerre.tcc \
  /usr/include/c++/11/tr1/riemann_zeta.tcc \
- /home/ubuntu1/CMAKE_CPP/UdemyCppPro-master/MyImplementation/CMake/10_UnitTests/build/_deps/spdlog-src/include/spdlog/fmt/bundled/core.h \
- /home/ubuntu1/CMAKE_CPP/UdemyCppPro-master/MyImplementation/CMake/10_UnitTests/build/_deps/spdlog-src/include/spdlog/details/registry.h \
- /home/ubuntu1/CMAKE_CPP/UdemyCppPro-master/MyImplementation/CMake/10_UnitTests/build/_deps/spdlog-src/include/spdlog/details/periodic_worker.h \
+ /home/ubuntu1/CMAKE_CPP/UdemyCppPro-master/MyImplementation/CMake/13_LTO/build/_deps/spdlog-src/include/spdlog/fmt/bundled/core.h \
+ /home/ubuntu1/CMAKE_CPP/UdemyCppPro-master/MyImplementation/CMake/13_LTO/build/_deps/spdlog-src/include/spdlog/details/registry.h \
+ /home/ubuntu1/CMAKE_CPP/UdemyCppPro-master/MyImplementation/CMake/13_LTO/build/_deps/spdlog-src/include/spdlog/details/periodic_worker.h \
  /usr/include/c++/11/condition_variable \
  /usr/include/c++/11/bits/unique_lock.h /usr/include/c++/11/stop_token \
  /usr/include/c++/11/bits/std_thread.h /usr/include/c++/11/semaphore \
@@ -255,27 +255,27 @@ _deps/spdlog-build/CMakeFiles/spdlog.dir/src/spdlog.cpp.o: \
  /usr/include/x86_64-linux-gnu/sys/time.h /usr/include/semaphore.h \
  /usr/include/x86_64-linux-gnu/bits/semaphore.h /usr/include/c++/11/mutex \
  /usr/include/c++/11/thread \
- /home/ubuntu1/CMAKE_CPP/UdemyCppPro-master/MyImplementation/CMake/10_UnitTests/build/_deps/spdlog-src/include/spdlog/logger.h \
- /home/ubuntu1/CMAKE_CPP/UdemyCppPro-master/MyImplementation/CMake/10_UnitTests/build/_deps/spdlog-src/include/spdlog/details/log_msg.h \
- /home/ubuntu1/CMAKE_CPP/UdemyCppPro-master/MyImplementation/CMake/10_UnitTests/build/_deps/spdlog-src/include/spdlog/details/backtracer.h \
- /home/ubuntu1/CMAKE_CPP/UdemyCppPro-master/MyImplementation/CMake/10_UnitTests/build/_deps/spdlog-src/include/spdlog/details/log_msg_buffer.h \
- /home/ubuntu1/CMAKE_CPP/UdemyCppPro-master/MyImplementation/CMake/10_UnitTests/build/_deps/spdlog-src/include/spdlog/details/circular_q.h \
+ /home/ubuntu1/CMAKE_CPP/UdemyCppPro-master/MyImplementation/CMake/13_LTO/build/_deps/spdlog-src/include/spdlog/logger.h \
+ /home/ubuntu1/CMAKE_CPP/UdemyCppPro-master/MyImplementation/CMake/13_LTO/build/_deps/spdlog-src/include/spdlog/details/log_msg.h \
+ /home/ubuntu1/CMAKE_CPP/UdemyCppPro-master/MyImplementation/CMake/13_LTO/build/_deps/spdlog-src/include/spdlog/details/backtracer.h \
+ /home/ubuntu1/CMAKE_CPP/UdemyCppPro-master/MyImplementation/CMake/13_LTO/build/_deps/spdlog-src/include/spdlog/details/log_msg_buffer.h \
+ /home/ubuntu1/CMAKE_CPP/UdemyCppPro-master/MyImplementation/CMake/13_LTO/build/_deps/spdlog-src/include/spdlog/details/circular_q.h \
  /usr/include/c++/11/cassert /usr/include/assert.h \
- /home/ubuntu1/CMAKE_CPP/UdemyCppPro-master/MyImplementation/CMake/10_UnitTests/build/_deps/spdlog-src/include/spdlog/version.h \
- /home/ubuntu1/CMAKE_CPP/UdemyCppPro-master/MyImplementation/CMake/10_UnitTests/build/_deps/spdlog-src/include/spdlog/details/synchronous_factory.h \
- /home/ubuntu1/CMAKE_CPP/UdemyCppPro-master/MyImplementation/CMake/10_UnitTests/build/_deps/spdlog-src/include/spdlog/pattern_formatter.h \
- /home/ubuntu1/CMAKE_CPP/UdemyCppPro-master/MyImplementation/CMake/10_UnitTests/build/_deps/spdlog-src/include/spdlog/details/os.h \
- /home/ubuntu1/CMAKE_CPP/UdemyCppPro-master/MyImplementation/CMake/10_UnitTests/build/_deps/spdlog-src/include/spdlog/formatter.h \
- /home/ubuntu1/CMAKE_CPP/UdemyCppPro-master/MyImplementation/CMake/10_UnitTests/build/_deps/spdlog-src/include/spdlog/common-inl.h \
+ /home/ubuntu1/CMAKE_CPP/UdemyCppPro-master/MyImplementation/CMake/13_LTO/build/_deps/spdlog-src/include/spdlog/version.h \
+ /home/ubuntu1/CMAKE_CPP/UdemyCppPro-master/MyImplementation/CMake/13_LTO/build/_deps/spdlog-src/include/spdlog/details/synchronous_factory.h \
+ /home/ubuntu1/CMAKE_CPP/UdemyCppPro-master/MyImplementation/CMake/13_LTO/build/_deps/spdlog-src/include/spdlog/pattern_formatter.h \
+ /home/ubuntu1/CMAKE_CPP/UdemyCppPro-master/MyImplementation/CMake/13_LTO/build/_deps/spdlog-src/include/spdlog/details/os.h \
+ /home/ubuntu1/CMAKE_CPP/UdemyCppPro-master/MyImplementation/CMake/13_LTO/build/_deps/spdlog-src/include/spdlog/formatter.h \
+ /home/ubuntu1/CMAKE_CPP/UdemyCppPro-master/MyImplementation/CMake/13_LTO/build/_deps/spdlog-src/include/spdlog/common-inl.h \
  /usr/include/c++/11/algorithm /usr/include/c++/11/bits/ranges_algo.h \
  /usr/include/c++/11/bits/ranges_util.h \
  /usr/include/c++/11/pstl/glue_algorithm_defs.h \
- /home/ubuntu1/CMAKE_CPP/UdemyCppPro-master/MyImplementation/CMake/10_UnitTests/build/_deps/spdlog-src/include/spdlog/details/backtracer-inl.h \
- /home/ubuntu1/CMAKE_CPP/UdemyCppPro-master/MyImplementation/CMake/10_UnitTests/build/_deps/spdlog-src/include/spdlog/details/registry-inl.h \
- /home/ubuntu1/CMAKE_CPP/UdemyCppPro-master/MyImplementation/CMake/10_UnitTests/build/_deps/spdlog-src/include/spdlog/sinks/ansicolor_sink.h \
- /home/ubuntu1/CMAKE_CPP/UdemyCppPro-master/MyImplementation/CMake/10_UnitTests/build/_deps/spdlog-src/include/spdlog/details/console_globals.h \
- /home/ubuntu1/CMAKE_CPP/UdemyCppPro-master/MyImplementation/CMake/10_UnitTests/build/_deps/spdlog-src/include/spdlog/sinks/sink.h \
- /home/ubuntu1/CMAKE_CPP/UdemyCppPro-master/MyImplementation/CMake/10_UnitTests/build/_deps/spdlog-src/include/spdlog/details/os-inl.h \
+ /home/ubuntu1/CMAKE_CPP/UdemyCppPro-master/MyImplementation/CMake/13_LTO/build/_deps/spdlog-src/include/spdlog/details/backtracer-inl.h \
+ /home/ubuntu1/CMAKE_CPP/UdemyCppPro-master/MyImplementation/CMake/13_LTO/build/_deps/spdlog-src/include/spdlog/details/registry-inl.h \
+ /home/ubuntu1/CMAKE_CPP/UdemyCppPro-master/MyImplementation/CMake/13_LTO/build/_deps/spdlog-src/include/spdlog/sinks/ansicolor_sink.h \
+ /home/ubuntu1/CMAKE_CPP/UdemyCppPro-master/MyImplementation/CMake/13_LTO/build/_deps/spdlog-src/include/spdlog/details/console_globals.h \
+ /home/ubuntu1/CMAKE_CPP/UdemyCppPro-master/MyImplementation/CMake/13_LTO/build/_deps/spdlog-src/include/spdlog/sinks/sink.h \
+ /home/ubuntu1/CMAKE_CPP/UdemyCppPro-master/MyImplementation/CMake/13_LTO/build/_deps/spdlog-src/include/spdlog/details/os-inl.h \
  /usr/include/x86_64-linux-gnu/sys/stat.h \
  /usr/include/x86_64-linux-gnu/bits/stat.h \
  /usr/include/x86_64-linux-gnu/bits/struct_stat.h \
@@ -295,11 +295,11 @@ _deps/spdlog-build/CMakeFiles/spdlog.dir/src/spdlog.cpp.o: \
  /usr/include/x86_64-linux-gnu/bits/fcntl-linux.h \
  /usr/include/x86_64-linux-gnu/bits/types/struct_iovec.h \
  /usr/include/linux/falloc.h \
- /home/ubuntu1/CMAKE_CPP/UdemyCppPro-master/MyImplementation/CMake/10_UnitTests/build/_deps/spdlog-src/include/spdlog/pattern_formatter-inl.h \
- /home/ubuntu1/CMAKE_CPP/UdemyCppPro-master/MyImplementation/CMake/10_UnitTests/build/_deps/spdlog-src/include/spdlog/details/fmt_helper.h \
- /home/ubuntu1/CMAKE_CPP/UdemyCppPro-master/MyImplementation/CMake/10_UnitTests/build/_deps/spdlog-src/include/spdlog/details/log_msg-inl.h \
- /home/ubuntu1/CMAKE_CPP/UdemyCppPro-master/MyImplementation/CMake/10_UnitTests/build/_deps/spdlog-src/include/spdlog/details/log_msg_buffer-inl.h \
- /home/ubuntu1/CMAKE_CPP/UdemyCppPro-master/MyImplementation/CMake/10_UnitTests/build/_deps/spdlog-src/include/spdlog/logger-inl.h \
- /home/ubuntu1/CMAKE_CPP/UdemyCppPro-master/MyImplementation/CMake/10_UnitTests/build/_deps/spdlog-src/include/spdlog/sinks/sink-inl.h \
- /home/ubuntu1/CMAKE_CPP/UdemyCppPro-master/MyImplementation/CMake/10_UnitTests/build/_deps/spdlog-src/include/spdlog/sinks/base_sink-inl.h \
- /home/ubuntu1/CMAKE_CPP/UdemyCppPro-master/MyImplementation/CMake/10_UnitTests/build/_deps/spdlog-src/include/spdlog/sinks/base_sink.h
+ /home/ubuntu1/CMAKE_CPP/UdemyCppPro-master/MyImplementation/CMake/13_LTO/build/_deps/spdlog-src/include/spdlog/pattern_formatter-inl.h \
+ /home/ubuntu1/CMAKE_CPP/UdemyCppPro-master/MyImplementation/CMake/13_LTO/build/_deps/spdlog-src/include/spdlog/details/fmt_helper.h \
+ /home/ubuntu1/CMAKE_CPP/UdemyCppPro-master/MyImplementation/CMake/13_LTO/build/_deps/spdlog-src/include/spdlog/details/log_msg-inl.h \
+ /home/ubuntu1/CMAKE_CPP/UdemyCppPro-master/MyImplementation/CMake/13_LTO/build/_deps/spdlog-src/include/spdlog/details/log_msg_buffer-inl.h \
+ /home/ubuntu1/CMAKE_CPP/UdemyCppPro-master/MyImplementation/CMake/13_LTO/build/_deps/spdlog-src/include/spdlog/logger-inl.h \
+ /home/ubuntu1/CMAKE_CPP/UdemyCppPro-master/MyImplementation/CMake/13_LTO/build/_deps/spdlog-src/include/spdlog/sinks/sink-inl.h \
+ /home/ubuntu1/CMAKE_CPP/UdemyCppPro-master/MyImplementation/CMake/13_LTO/build/_deps/spdlog-src/include/spdlog/sinks/base_sink-inl.h \
+ /home/ubuntu1/CMAKE_CPP/UdemyCppPro-master/MyImplementation/CMake/13_LTO/build/_deps/spdlog-src/include/spdlog/sinks/base_sink.h

@@ -30,6 +30,8 @@ option(ENABLE_SANITIZE_UNDEF "Enable undefined sanitizer" ON)
 
 option(ENABLE_LTO "Enable LTO/IPO" ON)
 
+option(USE_CPM "Whether to use CPM" ON)
+
 #   setting variables
 set(EXECUTABLE_NAME Executable)
 set(LIBRARY_NAME Library)
@@ -55,49 +57,62 @@ endif(ENABLE_LTO)
 #   Without FetchContent
 #   add_git_submodule(external/json)
 
-#   FETCH CONTENT
+if(USE_CPM)
+    include(CPM)
+    message(STATUS "CPM is used for external libraries")
+    #   gh ---> Use GitHub for downloading of library
+    #   gh:librarylink#version
+    cpmaddpackage("gh:nlohmann/json#v3.11.2")   # Lib-1
+    cpmaddpackage("gh:fmtlib/fmt#10.0.0")   # Lib-2
+    cpmaddpackage("gh:gabime/spdlog#v1.12.0")   # Lib-3
+    cpmaddpackage("gh:jarro2783/cxxopts#v3.1.1")    # Lib-4
+    cpmaddpackage("gh:catchorg/Catch2#v2.13.9") # Lib-5
 
-include(FetchContent)
+else()
+    #   FETCH CONTENT
 
-#   Lib-1
-FetchContent_Declare(
-    nlohmann_json
-    GIT_REPOSITORY https://github.com/nlohmann/json
-    GIT_TAG v3.11.2 #   Repo version
-    GIT_SHALLOW TRUE)
-FetchContent_MakeAvailable(nlohmann_json)
+    include(FetchContent)
+    message(STATUS "FetchContent is used for external libraries")
+    #   Lib-1
+    FetchContent_Declare(
+        nlohmann_json
+        GIT_REPOSITORY https://github.com/nlohmann/json
+        GIT_TAG v3.11.2 #   Repo version
+        GIT_SHALLOW TRUE)
+    FetchContent_MakeAvailable(nlohmann_json)
 
-#   Lib-2
-FetchContent_Declare(
-    fmt
-    GIT_REPOSITORY https://github.com/fmtlib/fmt
-    GIT_TAG 10.0.0  #   Repo version
-    GIT_SHALLOW TRUE)
-FetchContent_MakeAvailable(fmt)
+    #   Lib-2
+    FetchContent_Declare(
+        fmt
+        GIT_REPOSITORY https://github.com/fmtlib/fmt
+        GIT_TAG 10.0.0  #   Repo version
+        GIT_SHALLOW TRUE)
+    FetchContent_MakeAvailable(fmt)
 
-#   Lib-3
-FetchContent_Declare(
-    spdlog
-    GIT_REPOSITORY https://github.com/gabime/spdlog
-    GIT_TAG  v1.12.0   #   Repo version
-    GIT_SHALLOW TRUE)
-FetchContent_MakeAvailable(spdlog)
+    #   Lib-3
+    FetchContent_Declare(
+        spdlog
+        GIT_REPOSITORY https://github.com/gabime/spdlog
+        GIT_TAG  v1.12.0   #   Repo version
+        GIT_SHALLOW TRUE)
+    FetchContent_MakeAvailable(spdlog)
 
-#   Lib-4
-FetchContent_Declare(
-    cxxopts
-    GIT_REPOSITORY https://github.com/jarro2783/cxxopts
-    GIT_TAG  v3.1.1   #   Repo version
-    GIT_SHALLOW TRUE)
-FetchContent_MakeAvailable(cxxopts)
+    #   Lib-4
+    FetchContent_Declare(
+        cxxopts
+        GIT_REPOSITORY https://github.com/jarro2783/cxxopts
+        GIT_TAG  v3.1.1   #   Repo version
+        GIT_SHALLOW TRUE)
+    FetchContent_MakeAvailable(cxxopts)
 
-#   Lib-5
-FetchContent_Declare(
-    Catch2
-    GIT_REPOSITORY https://github.com/catchorg/Catch2
-    GIT_TAG   v2.13.9    #   Repo version
-    GIT_SHALLOW TRUE)
-FetchContent_MakeAvailable(Catch2)
+    #   Lib-5
+    FetchContent_Declare(
+        Catch2
+        GIT_REPOSITORY https://github.com/catchorg/Catch2
+        GIT_TAG   v2.13.9    #   Repo version
+        GIT_SHALLOW TRUE)
+    FetchContent_MakeAvailable(Catch2)
+endif()
 
 #   Letting main CMakeLists.txt data aware that there are CMakeLists.txt files in subdirectories:
 add_subdirectory(configured)

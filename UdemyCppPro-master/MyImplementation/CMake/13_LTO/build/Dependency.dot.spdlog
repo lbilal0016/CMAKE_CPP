@@ -1,8 +1,0 @@
-digraph "spdlog" {
-node [
-  fontsize = "12"
-];
-    "node6" [ label = "spdlog\n(spdlog::spdlog)", shape = octagon ];
-    "node7" [ label = "Threads::Threads", shape = pentagon ];
-    "node6" -> "node7"  // spdlog -> Threads::Threads
-}

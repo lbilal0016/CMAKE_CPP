@@ -20,11 +20,12 @@ int main()
     std::cout << "." << NLOHMANN_JSON_VERSION_PATCH;
     std::cout << std::endl; */
 
-    int i;
+/*  Following is the Code to test the Warnings and Sanitizers libraries
+    int i;  //  Uninitialised variable test
 
     char x[10];
-    x[11] = 1;
-
+    x[11] = 1;  //  Memory error (Runtime) test
+*/
     print_json_version();
 
     std::cout << "FMT Lib Version : " << FMT_VERSION<<std::endl;

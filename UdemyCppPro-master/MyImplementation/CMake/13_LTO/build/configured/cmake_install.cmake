@@ -1,4 +1,4 @@
-# Install script for directory: /home/ubuntu1/CMAKE_CPP/UdemyCppPro-master/MyImplementation/CMake/10_UnitTests/configured
+# Install script for directory: /home/ubuntu1/CMAKE_CPP/UdemyCppPro-master/MyImplementation/CMake/13_LTO/configured
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

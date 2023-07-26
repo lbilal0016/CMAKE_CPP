@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ubuntu1/CMAKE_CPP/UdemyCppPro-master/MyImplementation/CMake/10_UnitTests
+CMAKE_SOURCE_DIR = /home/ubuntu1/CMAKE_CPP/UdemyCppPro-master/MyImplementation/CMake/13_LTO
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ubuntu1/CMAKE_CPP/UdemyCppPro-master/MyImplementation/CMake/10_UnitTests/build
+CMAKE_BINARY_DIR = /home/ubuntu1/CMAKE_CPP/UdemyCppPro-master/MyImplementation/CMake/13_LTO/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -132,14 +132,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/ubuntu1/CMAKE_CPP/UdemyCppPro-master/MyImplementation/CMake/10_UnitTests/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu1/CMAKE_CPP/UdemyCppPro-master/MyImplementation/CMake/10_UnitTests/build/CMakeFiles /home/ubuntu1/CMAKE_CPP/UdemyCppPro-master/MyImplementation/CMake/10_UnitTests/build/src/my_lib//CMakeFiles/progress.marks
-	cd /home/ubuntu1/CMAKE_CPP/UdemyCppPro-master/MyImplementation/CMake/10_UnitTests/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/my_lib/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu1/CMAKE_CPP/UdemyCppPro-master/MyImplementation/CMake/10_UnitTests/build/CMakeFiles 0
+	cd /home/ubuntu1/CMAKE_CPP/UdemyCppPro-master/MyImplementation/CMake/13_LTO/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu1/CMAKE_CPP/UdemyCppPro-master/MyImplementation/CMake/13_LTO/build/CMakeFiles /home/ubuntu1/CMAKE_CPP/UdemyCppPro-master/MyImplementation/CMake/13_LTO/build/src/my_lib//CMakeFiles/progress.marks
+	cd /home/ubuntu1/CMAKE_CPP/UdemyCppPro-master/MyImplementation/CMake/13_LTO/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/my_lib/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu1/CMAKE_CPP/UdemyCppPro-master/MyImplementation/CMake/13_LTO/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/ubuntu1/CMAKE_CPP/UdemyCppPro-master/MyImplementation/CMake/10_UnitTests/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/my_lib/clean
+	cd /home/ubuntu1/CMAKE_CPP/UdemyCppPro-master/MyImplementation/CMake/13_LTO/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/my_lib/clean
 .PHONY : clean
 
 # The main clean target
@@ -148,22 +148,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/ubuntu1/CMAKE_CPP/UdemyCppPro-master/MyImplementation/CMake/10_UnitTests/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/my_lib/preinstall
+	cd /home/ubuntu1/CMAKE_CPP/UdemyCppPro-master/MyImplementation/CMake/13_LTO/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/my_lib/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/ubuntu1/CMAKE_CPP/UdemyCppPro-master/MyImplementation/CMake/10_UnitTests/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/my_lib/preinstall
+	cd /home/ubuntu1/CMAKE_CPP/UdemyCppPro-master/MyImplementation/CMake/13_LTO/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/my_lib/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/ubuntu1/CMAKE_CPP/UdemyCppPro-master/MyImplementation/CMake/10_UnitTests/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/ubuntu1/CMAKE_CPP/UdemyCppPro-master/MyImplementation/CMake/13_LTO/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 src/my_lib/CMakeFiles/Library.dir/rule:
-	cd /home/ubuntu1/CMAKE_CPP/UdemyCppPro-master/MyImplementation/CMake/10_UnitTests/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/my_lib/CMakeFiles/Library.dir/rule
+	cd /home/ubuntu1/CMAKE_CPP/UdemyCppPro-master/MyImplementation/CMake/13_LTO/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/my_lib/CMakeFiles/Library.dir/rule
 .PHONY : src/my_lib/CMakeFiles/Library.dir/rule
 
 # Convenience name for target.
@@ -172,7 +172,7 @@ Library: src/my_lib/CMakeFiles/Library.dir/rule
 
 # fast build rule for target.
 Library/fast:
-	cd /home/ubuntu1/CMAKE_CPP/UdemyCppPro-master/MyImplementation/CMake/10_UnitTests/build && $(MAKE) $(MAKESILENT) -f src/my_lib/CMakeFiles/Library.dir/build.make src/my_lib/CMakeFiles/Library.dir/build
+	cd /home/ubuntu1/CMAKE_CPP/UdemyCppPro-master/MyImplementation/CMake/13_LTO/build && $(MAKE) $(MAKESILENT) -f src/my_lib/CMakeFiles/Library.dir/build.make src/my_lib/CMakeFiles/Library.dir/build
 .PHONY : Library/fast
 
 my_lib.o: my_lib.cc.o
@@ -180,7 +180,7 @@ my_lib.o: my_lib.cc.o
 
 # target to build an object file
 my_lib.cc.o:
-	cd /home/ubuntu1/CMAKE_CPP/UdemyCppPro-master/MyImplementation/CMake/10_UnitTests/build && $(MAKE) $(MAKESILENT) -f src/my_lib/CMakeFiles/Library.dir/build.make src/my_lib/CMakeFiles/Library.dir/my_lib.cc.o
+	cd /home/ubuntu1/CMAKE_CPP/UdemyCppPro-master/MyImplementation/CMake/13_LTO/build && $(MAKE) $(MAKESILENT) -f src/my_lib/CMakeFiles/Library.dir/build.make src/my_lib/CMakeFiles/Library.dir/my_lib.cc.o
 .PHONY : my_lib.cc.o
 
 my_lib.i: my_lib.cc.i
@@ -188,7 +188,7 @@ my_lib.i: my_lib.cc.i
 
 # target to preprocess a source file
 my_lib.cc.i:
-	cd /home/ubuntu1/CMAKE_CPP/UdemyCppPro-master/MyImplementation/CMake/10_UnitTests/build && $(MAKE) $(MAKESILENT) -f src/my_lib/CMakeFiles/Library.dir/build.make src/my_lib/CMakeFiles/Library.dir/my_lib.cc.i
+	cd /home/ubuntu1/CMAKE_CPP/UdemyCppPro-master/MyImplementation/CMake/13_LTO/build && $(MAKE) $(MAKESILENT) -f src/my_lib/CMakeFiles/Library.dir/build.make src/my_lib/CMakeFiles/Library.dir/my_lib.cc.i
 .PHONY : my_lib.cc.i
 
 my_lib.s: my_lib.cc.s
@@ -196,7 +196,7 @@ my_lib.s: my_lib.cc.s
 
 # target to generate assembly for a file
 my_lib.cc.s:
-	cd /home/ubuntu1/CMAKE_CPP/UdemyCppPro-master/MyImplementation/CMake/10_UnitTests/build && $(MAKE) $(MAKESILENT) -f src/my_lib/CMakeFiles/Library.dir/build.make src/my_lib/CMakeFiles/Library.dir/my_lib.cc.s
+	cd /home/ubuntu1/CMAKE_CPP/UdemyCppPro-master/MyImplementation/CMake/13_LTO/build && $(MAKE) $(MAKESILENT) -f src/my_lib/CMakeFiles/Library.dir/build.make src/my_lib/CMakeFiles/Library.dir/my_lib.cc.s
 .PHONY : my_lib.cc.s
 
 # Help Target
@@ -226,6 +226,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/ubuntu1/CMAKE_CPP/UdemyCppPro-master/MyImplementation/CMake/10_UnitTests/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/ubuntu1/CMAKE_CPP/UdemyCppPro-master/MyImplementation/CMake/13_LTO/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

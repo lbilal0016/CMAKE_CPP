@@ -8,8 +8,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/ubuntu1/CMAKE_CPP/UdemyCppPro-master/MyImplementation/CMake/10_UnitTests/build/_deps/fmt-src/src/format.cc" "_deps/fmt-build/CMakeFiles/fmt.dir/src/format.cc.o" "gcc" "_deps/fmt-build/CMakeFiles/fmt.dir/src/format.cc.o.d"
-  "/home/ubuntu1/CMAKE_CPP/UdemyCppPro-master/MyImplementation/CMake/10_UnitTests/build/_deps/fmt-src/src/os.cc" "_deps/fmt-build/CMakeFiles/fmt.dir/src/os.cc.o" "gcc" "_deps/fmt-build/CMakeFiles/fmt.dir/src/os.cc.o.d"
+  "/home/ubuntu1/CMAKE_CPP/UdemyCppPro-master/MyImplementation/CMake/13_LTO/build/_deps/fmt-src/src/format.cc" "_deps/fmt-build/CMakeFiles/fmt.dir/src/format.cc.o" "gcc" "_deps/fmt-build/CMakeFiles/fmt.dir/src/format.cc.o.d"
+  "/home/ubuntu1/CMAKE_CPP/UdemyCppPro-master/MyImplementation/CMake/13_LTO/build/_deps/fmt-src/src/os.cc" "_deps/fmt-build/CMakeFiles/fmt.dir/src/os.cc.o" "gcc" "_deps/fmt-build/CMakeFiles/fmt.dir/src/os.cc.o.d"
   )
 
 # Targets to which this target links.
